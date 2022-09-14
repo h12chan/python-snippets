@@ -6,6 +6,11 @@
 mark = 90
 print(mark)
 
+# pass by reference
+num1 = 90
+num2 = num1
+print(id(num1), id(num2))
+
 # input
 number = input('What is your mark? ')
 print(number)
