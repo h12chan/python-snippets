@@ -9,6 +9,6 @@ def hello_world():
 # @app.route('/', defaults={'name':'John'})
 # @app.route('/<name>')
 # def hello_world(name):
-#   return 'Hello, World! %s' %name
+#   return 'Hello, %s!' %name
 
 app.run(host='0.0.0.0', port=8080)
