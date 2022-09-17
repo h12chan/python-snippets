@@ -17,7 +17,7 @@ print(numbers)
 print(len(numbers)) # length of list
 print(max(numbers)) # get max in array
 print(min(numbers)) # get min in array
-print(3 in numbers) # get 3 in array
+print(3 in numbers) # 3 in array returns True
 print('teacher' in people[1]) # get carpenter in people
 name = 'John'
 john = list(name)
